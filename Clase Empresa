@@ -1,0 +1,25 @@
+class Empresa 
+{
+    String nombre = "Gloria";
+    
+    String rubro = "Lacteos";
+
+    String direccion = "Av. Javier Prado";
+
+    void almacenar()
+     {
+         System.out.println("Almacenar productos lacteos");
+     }
+    public static void main(String[] args)
+         {
+            Empresa empresa = new Empresa();
+      
+            System.out.println(empresa.nombre);
+
+            System.out.println(empresa.rubro);
+
+            System.out.println(empresa.direccion);
+      
+            empresa.almacenar();
+        } 
+}
