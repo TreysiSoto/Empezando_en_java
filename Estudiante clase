@@ -1,0 +1,27 @@
+public class Estudiante 
+{
+    String carrera = "Ingenieria de Sistemas e Informatica";
+
+    String nombre = "Maria";
+
+    String apellido = "Guerrero";
+
+    String codigo = "2019211210";
+
+    void estudiar()
+     {
+         System.out.println("Estudiar para los examenes");
+     }
+    public static void main(String[] args)
+         {
+            Estudiante estudiante = new Estudiante();
+      
+            System.out.println(estudiante.carrera);
+      
+            System.out.println(estudiante.nombre);
+
+            System.out.println(estudiante.codigo);
+            
+            estudiante.estudiar();
+        }  
+}
